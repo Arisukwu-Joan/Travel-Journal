@@ -1,0 +1,112 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+
+.App {
+  text-align: center;
+}
+body{
+  font-family: 'inter', sans-serif ;
+}
+.header{
+  background-color: #F55A5A;
+  align-items: center;
+  justify-content: center;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 34em; */
+  height: 48px;
+}
+.container{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%; 
+
+}
+.main-card{
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+}
+.logo-img{
+  width: 24px;
+  padding: 5px;
+
+}
+.travel{
+  font-size: 12px;
+  color: #fff;
+}
+.fuji-img{
+  width: 56%;
+  padding: 45px 22px;
+}
+.fuji-info{
+  padding: 33px 0;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+}
+.lpv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 7.5em;
+}
+/* .location{
+padding: 3px;
+}*/
+.place{
+font-size: 10px;
+} 
+.view{
+  font-size: 10px;
+  padding: 0 2px;
+}
+.date{
+  font-size: 10px;
+  padding-top: 15px;
+  font-weight: 700;
+  padding-right: 13em;
+}.info{
+  font-size: 10.8px;
+  text-align: justify;
+  align-items: center;
+  padding: 15px 0;
+}
+.title{
+  font-size: 25px;
+  font-weight: 700;
+  text-align: initial;
+}
+
+/* @media (max-width: 480px) {
+  .header{
+
+  }
+  .container{
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+  }
+  .fuji-img{
+  }
+  .main-card{
+  }
+  .nav{
+
+  }
+} */
+
+
+
