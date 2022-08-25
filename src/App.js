@@ -1,15 +1,13 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
-// import Rectangle1 from "../src/images/Rectangle1.png";
+// import Rectangle1 from "../src/images/Rectangle.png";
 // import fill219 from "../src/images/fill219.png";
 
 import array from "./array";
 
 function App() {
-  const hero = array.map((item) => {
-    console.log(item.img, "RECTANGLE");
-
+  const hero = array.map((item) => 
     return (
       <Card
         img={item.img}
