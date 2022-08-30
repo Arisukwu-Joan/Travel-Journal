@@ -7,19 +7,18 @@ import Card from "./components/Card";
 import array from "./array";
 
 function App() {
-  const hero = array.map((item) => 
-    return (
-      <Card
-        img={item.img}
-        location={item.location}
-        country={item.country}
-        view={item.view}
-        title={item.title}
-        period={item.period}
-        description={item.description}
-      />
-    );
-  });
+ const hero = array.map((item) => (
+    <Card
+      img={item.img}
+      location={item.location}
+      country={item.country}
+      view={item.view}
+      title={item.title}
+      period={item.period}
+      description={item.description}
+    />
+  ));
+
   return (
     <div className="container">
       <div className="App">
